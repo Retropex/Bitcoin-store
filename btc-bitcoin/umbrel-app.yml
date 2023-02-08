@@ -36,6 +36,9 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
+
+  ⚠️ Please note this version of bitcoin core contains a patch to remove Ordinals from the mempool, this solution is not sustainable in the long term! ⚠️
+  
   Advanced settings are here!
 
 
