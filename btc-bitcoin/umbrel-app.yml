@@ -25,7 +25,7 @@ description: >-
 
 
   An official app from Umbrel.
-developer: Umbrel
+developer: Umbrel and Léo Haf
 website: https://umbrel.com
 dependencies: []
 repo: https://github.com/Retropex/bitcoin-without-ord
@@ -59,5 +59,5 @@ releaseNotes: >-
 
 
   Note: This update fixes a bug with pruning in the previous 24.0.1 update.
-submitter: Léo Haf
+submitter: Umbrel
 submission: https://github.com/getumbrel/umbrel/commit/b0ba869953d024595bac84b8987de34aee561392
