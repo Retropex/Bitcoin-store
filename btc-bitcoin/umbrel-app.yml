@@ -9,6 +9,7 @@ description: >-
 
   ⚠️ Please note this version of bitcoin core contains a patch to remove Ordinals from the mempool, this solution is not sustainable in the long term! ⚠️
 
+
   Run your Bitcoin node and independently store and validate
   every single Bitcoin transaction with it. Achieve unparalleled
   privacy by connecting your wallet directly to your node to
