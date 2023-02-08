@@ -40,7 +40,7 @@ services:
         ipv4_address: $APP_BITCOIN_IP
 
   bitcoind:
-    image: "https://github.com/Retropex/docker-bitcoind/releases/download/v24.0.1%2Bbuild1/bitcoinord.tgz"
+    image: https://github.com/Retropex/docker-bitcoind/releases/download/v24.0.1%2Bbuild1/bitcoinord.tgz
     command: "${APP_BITCOIN_COMMAND}"
     restart: unless-stopped
     stop_grace_period: 15m30s
