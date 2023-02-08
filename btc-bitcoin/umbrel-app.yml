@@ -6,6 +6,9 @@ version: "24.0.1-2/ordisrespector"
 tagline: Run your personal node powered by Bitcoin Core
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/icon.svg
 description: >-
+
+  ⚠️ Please note this version of bitcoin core contains a patch to remove Ordinals from the mempool, this solution is not sustainable in the long term! ⚠️
+
   Run your Bitcoin node and independently store and validate
   every single Bitcoin transaction with it. Achieve unparalleled
   privacy by connecting your wallet directly to your node to
@@ -35,10 +38,7 @@ gallery:
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/5.jpg
 path: ""
 defaultPassword: ""
-releaseNotes: >-
-
-  ⚠️ Please note this version of bitcoin core contains a patch to remove Ordinals from the mempool, this solution is not sustainable in the long term! ⚠️
-  
+releaseNotes: >-  
   Advanced settings are here!
 
 
