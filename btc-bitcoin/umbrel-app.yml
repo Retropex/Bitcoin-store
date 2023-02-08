@@ -4,6 +4,7 @@ category: Finance
 name: Bitcoin Node
 version: "24.0.1-2/ordisrespector"
 tagline: Run your personal node powered by Bitcoin Core
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/icon.svg
 description: >-
   Run your Bitcoin node and independently store and validate
   every single Bitcoin transaction with it. Achieve unparalleled
@@ -23,7 +24,7 @@ description: >-
 developer: Umbrel
 website: https://umbrel.com
 dependencies: []
-repo: https://github.com/getumbrel/umbrel-bitcoin
+repo: https://github.com/Retropex/bitcoin-without-ord
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2100
 gallery:
