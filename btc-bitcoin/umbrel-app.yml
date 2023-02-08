@@ -28,11 +28,11 @@ repo: https://github.com/Retropex/bitcoin-without-ord
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2100
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
-  - 5.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/3.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/4.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/5.jpg
 path: ""
 defaultPassword: ""
 releaseNotes: >-
