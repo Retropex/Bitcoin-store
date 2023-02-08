@@ -4,7 +4,7 @@ category: Finance
 name: Bitcoin Node
 version: "24.0.1-2/ordisrespector"
 tagline: Run your personal node powered by Bitcoin Core
-icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/icon.svg
+icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-bitcoin/icon/icon.svg
 description: >-
 
   ⚠️ Please note this version of bitcoin core contains a patch to remove Ordinals from the mempool, this solution is not sustainable in the long term! ⚠️
@@ -31,11 +31,11 @@ repo: https://github.com/Retropex/bitcoin-without-ord
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2100
 gallery:
-  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/1.jpg
-  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/2.jpg
-  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/3.jpg
-  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/4.jpg
-  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/5.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-bitcoin/icon/1.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-bitcoin/icon/2.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-bitcoin/icon/3.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-bitcoin/icon/4.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-bitcoin/icon/5.jpg
 path: ""
 defaultPassword: ""
 releaseNotes: >-  
