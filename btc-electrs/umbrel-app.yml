@@ -4,6 +4,7 @@ category: Finance
 name: Electrs
 version: "0.9.10"
 tagline: A simple and efficient Electrum Server
+icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-electrs/icons/icon.svg
 description: >
   Run your personal Electrum server and connect your Electrum-compatible wallet,
   including BitBoxApp, BlueWallet, Electrum Wallet (Android and Desktop), Nunchuk 
@@ -23,10 +24,10 @@ repo: https://github.com/getumbrel/umbrel-electrs
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2102
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-electrs/icons/1.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-electrs/icons/2.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-electrs/icons/3.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-electrs/icons/4.jpg
 path: ""
 defaultPassword: ""
 releaseNotes: >
