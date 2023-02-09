@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-electrs
 category: Finance
 name: Electrs
-version: "0.9.10"
+version: "0.9.10-2"
 tagline: A simple and efficient Electrum Server
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-electrs/icons/icon.svg
 description: >
