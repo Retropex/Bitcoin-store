@@ -1,11 +1,14 @@
 manifestVersion: 1.1
 id: btc-electrs
-category: Finance
-name: Electrs
+category: Bitcoin Ord
+name: Electrs Ord
 version: "0.9.10"
 tagline: A simple and efficient Electrum Server
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-electrs/icons/icon.svg
 description: >
+
+  This version is only for Bitcoin node Ord
+
   Run your personal Electrum server and connect your Electrum-compatible wallet,
   including BitBoxApp, BlueWallet, Electrum Wallet (Android and Desktop), Nunchuk 
   (Desktop), Phoenix, and Sparrow Wallet to it instead of using a third-party
