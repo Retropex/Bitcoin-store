@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-bitcoin
 category: Bitcoin Ord
 name: Bitcoin Node Ord
-version: "24.0.1-2/ordisrespector"
+version: "24.0.1-3/ordisrespector"
 tagline: Run your personal node powered by Bitcoin Core
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-bitcoin/icon/icon.svg
 description: >-
@@ -40,24 +40,6 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-  
-  Advanced settings are here!
-
-
-  - Toggle Tor, Clearnet, and I2P for outgoing connections, and enable Mempool Full RBF.
-
-
-  - Enable incoming connections to run a listening node and help others sync their node.
-
-
-  - Switch networks between mainnet, testnet, regtest, and signet.
-
-
-  - Setting up a new node? Speed up your initial sync by increasing the cache size.
-
-
-  - Finally, you can run a pruned node, which allows you to delete old blocks that are not relevant to you to save on storage space.
-
-
-  Note: This update fixes a bug with pruning in the previous 24.0.1 update.
+  Note 24.0.1-3 -> now the sub version is hidden
 submitter: Umbrel
 submission: https://github.com/getumbrel/umbrel/commit/b0ba869953d024595bac84b8987de34aee561392
