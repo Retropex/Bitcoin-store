@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: btc-mempool
-category: Explorers
+category: Bitcoin Ord
 name: mempool
 version: "2.4.0"
 tagline: A self-hosted explorer for the Bitcoin community
