@@ -6,6 +6,9 @@ version: "2.4.0"
 tagline: A self-hosted explorer for the Bitcoin community
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/mempool/icons/icon.svg
 description: >-
+
+  This version is only for Bitcoin node Ord
+
   Trusted third parties are security holes. Self-host your own
   instance of mempool.space on Umbrel for maximum privacy.
 
