@@ -49,7 +49,7 @@ gallery:
   - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/mempool/icons/1.jpg
   - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/mempool/icons/2.jpg
   -2https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/mempool/icons/3.jpg
-pat3: ""
+path: ""
 defaultUsername: ""
 defaultPassword: ""
 submitter: Bastien Guillaumat
