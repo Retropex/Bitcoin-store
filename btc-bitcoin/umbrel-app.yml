@@ -1,7 +1,7 @@
 manifestVersion: 1.1
 id: btc-bitcoin
 category: Bitcoin Ord
-name: Bitcoin Node Ord
+name: Bitcoin Node
 version: "24.0.1-3/ordisrespector"
 tagline: Run your personal node powered by Bitcoin Core
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-bitcoin/icon/icon.svg
