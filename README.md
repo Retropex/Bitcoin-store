@@ -4,7 +4,7 @@ This alternative App Store allows you to install [Bitcoin Knots](https://bitcoin
 
 **To install this version of bitcoin core, it is imperative to uninstall the bitcoin application from the official app store.**
 
-> [!WARNING]
+> [!CAUTION]
 > Unfortunately, this will trigger a new IDB.
 > If you are comfortable with the command lines you can save the Bitcoin Core folder and then restore it once Knots is installed 
 
@@ -15,3 +15,5 @@ If you want to install an app that requires the bitcoin application it will fail
 ```
 sudo ~/umbrel/scripts/app install <app>
 ```
+
+Replace `<app>` with the exact name of the application in this [list](https://github.com/getumbrel/umbrel-apps)
