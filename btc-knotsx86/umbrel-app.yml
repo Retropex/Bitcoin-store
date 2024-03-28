@@ -1,8 +1,8 @@
 manifestVersion: 1.1
 id: btc-knotsx86
-category: Bitcoin Ord
+category: Bitcoin
 name: Bitcoin Knots x86
-version: "25.1"
+version: "26.1"
 tagline: Run your personal node powered by Bitcoin Knots for x86 platform
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-knotsx86/icon/icon.svg
 description: >-
@@ -12,7 +12,7 @@ description: >-
 developer: Luke Dashjr
 website: https://umbrel.com
 dependencies: []
-repo: https://github.com/Retropex/bitcoin/tree/bitcoinknots-for-umbrel
+repo: https://github.com/bitcoinknots/bitcoin
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2100
 gallery:
@@ -23,7 +23,5 @@ gallery:
   - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-death-star/icon/5.jpg
 path: ""
 defaultPassword: ""
-releaseNotes: >-  
-  - MAX_OP_RETURN_RELAY reduced to 0 byte by default
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel/commit/b0ba869953d024595bac84b8987de34aee561392
+submitter: Léo Haf
+submission: https://github.com/getumbrel/umbrel-apps/pull/953

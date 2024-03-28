@@ -40,7 +40,7 @@ services:
         ipv4_address: $APP_BITCOIN_IP
 
   bitcoind:
-    image: ghcr.io/retropex/bitcoin:arm-knots-25.1-for-umbrel@sha256:990ff3a324e4a4343b63e656c2ec7c1c29f668b46adb1eaa3e159dfce311bd46
+    image: retropexx/bitcoind:v26.1-arm64v8@sha256:2a477a582a22f1ee3050aa97926719cc1897451e25a31f8752dfdf6fc61fedf9
     command: "${APP_BITCOIN_COMMAND}"
     restart: unless-stopped
     stop_grace_period: 15m30s
