@@ -4,11 +4,12 @@ category: Bitcoin
 name: Bitcoin Knots
 version: "26.1.1"
 tagline: Run your personal node powered by Bitcoin Knots
-icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-knots/icon/icon.svg
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/icon.svg
 description: >-
+  Take control of your digital sovereignty by running a Bitcoin node that aligns with your needs and preferences. 
+  Independently store and validate every single Bitcoin transaction with Bitcoin Knots.
 
-    Bitcoin Knots
-
+  Powered by Bitcoin Knots: https://bitcoinknots.org/
 developer: Luke Dashjr
 website: https://umbrel.com
 dependencies: []
@@ -16,12 +17,13 @@ repo: https://github.com/bitcoinknots/bitcoin
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2100
 gallery:
-  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-death-star/icon/1.jpg
-  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-death-star/icon/2.jpg
-  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-death-star/icon/3.jpg
-  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-death-star/icon/4.jpg
-  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/master/btc-death-star/icon/5.jpg
-path: ""
-defaultPassword: ""
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/3.jpg
+releaseNotes: >-
+  This release updates Bitcoin Knots to version 26.1.
+  
+  
+  Full release notes can be found at https://github.com/bitcoinknots/bitcoin/blob/v26.1.knots20240325/doc/release-notes.md
 submitter: Léo Haf
 submission: https://github.com/getumbrel/umbrel-apps/pull/953
