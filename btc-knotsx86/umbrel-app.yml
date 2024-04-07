@@ -20,6 +20,8 @@ gallery:
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/1.jpg
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/2.jpg
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/3.jpg
+path: ""
+defaultPassword: ""
 releaseNotes: >-
   This release updates Bitcoin Knots to version 26.1.
   
