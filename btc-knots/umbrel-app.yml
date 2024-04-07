@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-knots
 category: Bitcoin
 name: Bitcoin Knots
-version: "26.1.1"
+version: "26.1.2"
 tagline: Run your personal node powered by Bitcoin Knots
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/icon.svg
 description: >-
