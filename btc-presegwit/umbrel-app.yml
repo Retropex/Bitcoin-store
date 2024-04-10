@@ -1,0 +1,30 @@
+manifestVersion: 1.1
+id: btc-presegwit
+category: Bitcoin
+name: Pre-segwit node
+version: "0.12.1"
+tagline: Run your personal node powered by Bitcoin Core for x86 platform
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/icon.svg
+description: >-
+  Take control of your digital sovereignty by running a Bitcoin node that aligns with your needs and preferences. 
+  Independently store and validate every single Bitcoin transaction with Bitcoin Core.
+
+  Powered by Bitcoin Core: https://bitcoincore.org/en/releases/0.12.1/
+developer: Bitcoin Core Developper
+website:  https://bitcoincore.org
+dependencies: []
+repo: https://github.com/bitcoinknots/bitcoin
+support: https://community.getumbrel.com/c/bitcoin-and-lightning
+port: 2100
+gallery:
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/3.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/4.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/5.jpg
+path: ""
+defaultPassword: ""
+releaseNotes: >-
+  This release updates Bitcoin Core to version 0.12.1.
+submitter: Léo Haf
+submission: https://github.com/bitcoin/bitcoin/tree/v0.12.1
