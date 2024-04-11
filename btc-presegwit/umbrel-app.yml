@@ -1,11 +1,13 @@
 manifestVersion: 1.1
 id: btc-presegwit
-category: Bitcoin
+category: Core
 name: Pre-segwit node
 version: "0.12.1"
 tagline: Run your personal node powered by Bitcoin Core for x86 platform
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin/icon.svg
 description: >-
+  🚨 use this only if you know what you are doing 🚨
+
   Take control of your digital sovereignty by running a Bitcoin node that aligns with your needs and preferences. 
   Independently store and validate every single Bitcoin transaction with Bitcoin Core.
 
