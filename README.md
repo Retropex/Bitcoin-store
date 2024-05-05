@@ -17,3 +17,9 @@ sudo ~/umbrel/scripts/app install <app>
 ```
 
 Replace `<app>` with the exact name of the application in this [list](https://github.com/getumbrel/umbrel-apps)
+
+If you use umbrel with a versions above 1.0 use this command instead:
+
+"""
+umbreld client apps.install.mutate --appId <app>
+"""
