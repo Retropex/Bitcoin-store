@@ -7,7 +7,7 @@ services:
       APP_PORT: 3005
   
   server:
-    image: retropexx/umbrel-bitcoin-knots:v0.5.1@sha256:f600f9376c65f4d6fcba33ea16c8ee7c1afba6f8169620aa61439e0284aa5864
+    image: retropexx/umbrel-bitcoin-knots:v0.5.2@sha256:b1916b7a5961081ac6fbfbe3ff90a9b1fb05b792dcd97318278a1941c3d21527
     depends_on: [bitcoind]
     restart: on-failure
     volumes:
