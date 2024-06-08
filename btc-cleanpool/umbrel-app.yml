@@ -4,22 +4,24 @@ category: Explorer
 name: cleanpool
 version: "3.0.0"
 tagline: Explore Bitcoin
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/mempool/icon.svg
 description: >-
   Explore Bitcoin without spam
+
+  You NEED to have Core/Knots installed to use this app.
 releaseNotes: >-
   This update allows users to use the Lightning explorer if the Lightning Node app is installed.
 developer: Mempool Space K.K. and Léo
 website: https://mempool.orangepill.ovh
-dependencies:
-  - btc-knots
+dependencies: []
 repo: https://github.com/Retropex/mempool
 support: https://mempool.support
 port: 3006
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/mempool/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/mempool/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/mempool/3.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/mempool/4.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
