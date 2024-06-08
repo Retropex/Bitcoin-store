@@ -11,8 +11,7 @@ releaseNotes: >-
 developer: Mempool Space K.K. and Léo
 website: https://mempool.orangepill.ovh
 dependencies:
-  - bitcoin
-  - electrs
+  - btc-knots
 repo: https://github.com/Retropex/mempool
 support: https://mempool.support
 port: 3006
