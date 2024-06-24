@@ -40,7 +40,7 @@ services:
         ipv4_address: $APP_BITCOIN_IP
 
   bitcoind:
-    image: retropexx/bitcoind:v26.2@sha256:43a9b8b205d7c0c068e9e13ea8da8d439c4807f6d61f2f22e48ad7b7fac71b72
+    image: retropexx/bitcoind:v27.1@sha256:09826b44e704bf3675b270e20bcedf3f2d0fc059bb855eaebbf90ec5605ff314
     command: "${APP_BITCOIN_COMMAND}"
     restart: unless-stopped
     stop_grace_period: 15m30s

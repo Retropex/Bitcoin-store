@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-knotsx86
 category: Bitcoin
 name: Bitcoin Knots x86
-version: "26.1.6"
+version: "27.1"
 tagline: Run your personal node powered by Bitcoin Knots for x86 platform
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/icon.svg
 description: >-
@@ -23,9 +23,9 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  This release updates Bitcoin Knots to version 26.1.knots20240513
+  This release updates Bitcoin Knots to version v27.1.knots20240621
   
   
-  Full release notes can be found at https://github.com/bitcoinknots/bitcoin/blob/v26.1.knots20240513/doc/release-notes.md
+  Full release notes can be found at https://github.com/bitcoinknots/bitcoin/releases/tag/v27.1.knots20240621
 submitter: Léo Haf
 submission: https://github.com/getumbrel/umbrel-apps/pull/953
