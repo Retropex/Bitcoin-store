@@ -110,6 +110,7 @@ BIN_ARGS+=( "-blockfilterindex=1" )
 BIN_ARGS+=( "-peerbloomfilters=1" )
 BIN_ARGS+=( "-peerblockfilters=1" )
 BIN_ARGS+=( "-rpcworkqueue=128" )
+BIN_ARGS+=( "-blocknotify='curl -s -m 5 http://datum_datum_1:21000/NOTIFY'" )
 
 export APP_BITCOIN_COMMAND=$(IFS=" "; echo "${BIN_ARGS[@]}")
 

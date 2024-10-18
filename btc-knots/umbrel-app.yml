@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-knots
 category: Bitcoin
 name: Bitcoin Knots arm64
-version: "27.1.1"
+version: "27.1.2"
 tagline: Run your personal node powered by Bitcoin Knots
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/icon.svg
 description: >-
@@ -23,7 +23,7 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  This release updates Bitcoin Knots to version v27.1.knots20240801
+  This release make Bitcoin Knots compatible with Datum.
   
   
   Full release notes can be found at https://github.com/bitcoinknots/bitcoin/releases/tag/v27.1.knots20240801
