@@ -7,7 +7,7 @@ services:
       APP_PORT: 3005
   
   server:
-    image: ghcr.io/retropex/umbrel-bitcoin-knots:v0.5.6@sha256:ea2dbea78c257b8670035f1fed389ced6071b95491ff22058300016819d9013a
+    image: retropexx/umbrel-bitcoin-knots:v0.5.3@sha256:c21fc893fb943c92fb078afb7622ab0741eccccf9073629a5bda713ed7a8f537
     depends_on: [bitcoind]
     restart: on-failure
     volumes:
@@ -42,7 +42,7 @@ services:
   bitcoind:
     image: ghcr.io/retropex/bitcoin:v27.1@sha256:58553f26a73be8aed2c318e49fbbd3dc16e4e6158e4d75a59fcb42a2ce104e97
     command: "${APP_BITCOIN_COMMAND}"
-    restart: on-failure
+    restart: unless-stopped
     stop_grace_period: 15m30s
     volumes:
       - "${APP_BITCOIN_DATA_DIR}:/data/.bitcoin"
