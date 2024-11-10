@@ -1,6 +1,6 @@
 manifestVersion: 1.1
 id: btc-datum
-category: bitcoin
+category: mining
 name: DATUM
 version: "v0.2-beta"
 tagline: Self-sovereign Bitcoin mining
@@ -57,8 +57,7 @@ description: >-
   For more information on Datum, please visit https://github.com/OCEAN-xyz/datum_gateway
 developer: OCEAN
 website: https://ocean.xyz
-dependencies:
-  - bitcoin-knots
+dependencies: []
 repo: https://github.com/OCEAN-xyz/datum_gateway
 support: https://ocean.xyz
 port: 21000
