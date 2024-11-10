@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: datum_datum_1
+      APP_HOST: btc-datum_datum_1
       APP_PORT: 21000
 
   datum:
