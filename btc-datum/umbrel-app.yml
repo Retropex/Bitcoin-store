@@ -4,6 +4,7 @@ category: bitcoin
 name: DATUM
 version: "v0.2-beta"
 tagline: Self-sovereign Bitcoin mining
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/icon.svg
 description: >-
   DATUM (Decentralized Alternative Templates for Universal Mining) is a brand new bitcoin mining protocol that allows you to create your own block templates using your own Bitcoin node.
   
@@ -62,11 +63,11 @@ repo: https://github.com/OCEAN-xyz/datum_gateway
 support: https://ocean.xyz
 port: 21000
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/3.jpg
 path: ""
 defaultPassword: ""
 releaseNotes: ""
 submitter: Léo Haf
-submission: https://github.com/getumbrel/umbrel-apps/pull/1661
+submission: https://github.com/Retropex/Bitcoin-store/pull/1
