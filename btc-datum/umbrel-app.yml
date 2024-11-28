@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-datum
 category: mining
 name: DATUM
-version: "v0.2-beta"
+version: "v0.2.1-beta"
 tagline: Self-sovereign Bitcoin mining
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/icon.svg
 description: >-
@@ -67,6 +67,7 @@ gallery:
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/3.jpg
 path: ""
 defaultPassword: ""
-releaseNotes: ""
+releaseNotes: >-
+  Various bug fixes.
 submitter: Léo Haf
 submission: https://github.com/Retropex/Bitcoin-store/pull/1
