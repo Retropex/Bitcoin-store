@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-datum
 category: mining
 name: DATUM
-version: "v0.2.1-beta"
+version: "v0.2.2-beta"
 tagline: Self-sovereign Bitcoin mining
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/icon.svg
 description: >-
