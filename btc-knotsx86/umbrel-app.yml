@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-knotsx86
 category: Bitcoin
 name: Bitcoin Knots x86
-version: "27.1.3"
+version: "28.1"
 tagline: Run your personal node powered by Bitcoin Knots for x86 platform
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/icon.svg
 description: >-
@@ -23,6 +23,8 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  This update add new policy settings to be able fully customise your mempool and your mining template. it also make Knots compatible with Datum.
+  This release updates Bitcoin Knots to version v28.1.knots20250305
+
+  Full release notes can be found at https://github.com/bitcoinknots/bitcoin/releases/tag/v28.1.knots20250305
 submitter: Léo Haf
 submission: https://github.com/getumbrel/umbrel-apps/pull/953
