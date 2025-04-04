@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-datum
 category: mining
 name: DATUM
-version: "v0.2.2-beta"
+version: "v0.3.1-beta"
 tagline: Self-sovereign Bitcoin mining
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/icon.svg
 description: >-
@@ -66,8 +66,16 @@ gallery:
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/2.jpg
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/3.jpg
 path: ""
-defaultPassword: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel"
 releaseNotes: >-
-  Various bug fixes.
+  ⚠️ Don't forget to add your bitcoin address in the config tab otherwise datum won't start.
+
+  The user is "admin" and the default password "umbrel".
+
+
+  - New config Tab
+
+  - Various bug fixes.
 submitter: Léo Haf
 submission: https://github.com/Retropex/Bitcoin-store/pull/1
