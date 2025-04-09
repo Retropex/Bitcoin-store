@@ -4,6 +4,7 @@ category: bitcoin
 name: mempool dot guide
 version: "3.2.0"
 tagline: Be your own explorer
+icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/mempooldotguide.png
 description: >-
   Run your own instance of The Mempool Open Source Project and trust no one.
 
@@ -22,7 +23,10 @@ repo: https://github.com/mempool/mempool
 support: https://mempool.support
 port: 3006
 gallery:
-  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/mempooldotguide.png
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/mempool/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/mempool/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/mempool/3.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/mempool/4.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
