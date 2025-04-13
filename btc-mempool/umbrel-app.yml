@@ -7,11 +7,18 @@ tagline: Explorer
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/mempooldotguide.png
 description: >-
   Run your own mempool dot guide instance.
+
+
+  features:
+
+
+  - reworked health alogrithm to show how much healty transactions there is in a block.
+
+  - removed shitcoin explorer features.
 releaseNotes: >-
 developer: Mempool Space K.K.
 website: https://mempool.guide
 dependencies:
-  - bitcoin
   - electrs
 repo: https://github.com/retropex/mempool
 support: https://mempool.support
