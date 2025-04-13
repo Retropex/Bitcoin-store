@@ -12,7 +12,7 @@ description: >-
   features:
 
 
-  - reworked health alogrithm to show how much healty transactions there is in a block.
+  - reworked health algorithm to show how much healthy transactions there is in a block.
 
   - removed shitcoin explorer features.
 releaseNotes: >-
