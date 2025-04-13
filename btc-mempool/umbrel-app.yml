@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: btc-mempool
 category: bitcoin
-name: mempool dot guide
+name: mempool
 version: "3.2.0"
 tagline: Explorer
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/mempooldotguide.png
@@ -9,7 +9,7 @@ description: >-
   Run your own mempool dot guide instance.
 releaseNotes: >-
 developer: Mempool Space K.K.
-website: https://mempool.space/about
+website: https://mempool.guide
 dependencies:
   - bitcoin
   - electrs
@@ -17,10 +17,10 @@ repo: https://github.com/retropex/mempool
 support: https://mempool.support
 port: 3006
 gallery:
-  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/mempool/1.jpg
-  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/mempool/2.jpg
-  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/mempool/3.jpg
-  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/mempool/4.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/1.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/2.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/3.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/4.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
@@ -46,5 +46,5 @@ widgets:
         - title: "High priority"
           text: "27"
           subtext: "sat/vB"
-submitter: Mempool Space K.K.
-submission: https://github.com/getumbrel/umbrel/pull/470
+submitter: Léo Haf
+submission: https://github.com/Retropex/Bitcoin-store/pull/7
