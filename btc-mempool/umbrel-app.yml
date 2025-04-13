@@ -1,0 +1,57 @@
+manifestVersion: 1
+id: btc-mempool
+category: bitcoin
+name: mempool
+version: "3.2.0"
+tagline: Explorer
+icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/mempooldotguide.png
+description: >-
+  Run your own mempool dot guide instance.
+
+
+  features:
+
+
+  - reworked health algorithm to show how much healthy transactions there is in a block.
+
+  - removed shitcoin explorer features.
+releaseNotes: >-
+developer: Mempool Space K.K.
+website: https://mempool.guide
+dependencies:
+  - electrs
+repo: https://github.com/retropex/mempool
+support: https://mempool.support
+port: 3006
+gallery:
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/1.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/2.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/3.jpg
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/4.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+widgets:
+  - id: "stats"
+    type: "four-stats"
+    refresh: "5s"
+    endpoint: "widget-server:3000/widgets/fees"
+    link: ""
+    example:
+      type: "four-stats"
+      link: ""
+      items:
+        - title: "No priority"
+          text: "2"
+          subtext: "sat/vB"
+        - title: "Low priority"
+          text: "6"
+          subtext: "sat/vB"
+        - title: "Medium priority"
+          text: "18"
+          subtext: "sat/vB"
+        - title: "High priority"
+          text: "27"
+          subtext: "sat/vB"
+submitter: Léo Haf
+submission: https://github.com/Retropex/Bitcoin-store/pull/7
