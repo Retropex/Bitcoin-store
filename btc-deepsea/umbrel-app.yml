@@ -1,0 +1,25 @@
+manifestVersion: 1.1
+id: btc-deepsea
+category: mining
+name: DeepSea Dashboard
+version: "0.7"
+tagline: Retro style Ocean dashboard
+icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/dash.png
+description: >-
+  Customized Ocean.xyz Bitcoin Mining Pool Dashboard
+
+  (This community project is not affiliated with OCEAN)
+developer: DJ O₿leezy
+dependencies: []
+repo: https://github.com/Djobleezy/DeepSea-Dashboard.git
+port: 5001
+gallery:
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/1-dash.png
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/2-dash.png
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/3-dash.png
+  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/4-dash.png
+path: ""
+releaseNotes: >-
+  Initial release!
+submitter: Léo Haf
+submission: https://github.com/Retropex/Bitcoin-store/pull/9
