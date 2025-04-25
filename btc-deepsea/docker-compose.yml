@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: btc-deepsea_deepsea_1
-      APP_PORT: 5000
+      APP_PORT: 5300
 
   deepsea:
     image: ghcr.io/retropex/custom-dashboard-ocean:v0.8.1@sha256:6b5144ed7e7ebfbfed7706bbb932d62689df67bd188951eb92f201690eedce8f
@@ -13,4 +13,4 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/:/app/data/
     ports:
-      - 5000:5000
+      - 5300:5300
