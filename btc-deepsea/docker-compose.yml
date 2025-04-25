@@ -7,7 +7,7 @@ services:
       APP_PORT: 5000
 
   deepsea:
-    image: ghcr.io/retropex/custom-dashboard-ocean:v0.8
+    image: ghcr.io/retropex/custom-dashboard-ocean:v0.8.1@sha256:d6912f44df79a6cc164495de97bcb203ad757a4a17719e6652147d41c0b644fd
     user: 1000:1000
     restart: on-failure
     volumes:
