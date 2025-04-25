@@ -13,7 +13,7 @@ description: >-
 developer: DJ O₿leezy
 dependencies: []
 repo: https://github.com/Djobleezy/DeepSea-Dashboard.git
-port: 5300
+port: 5333
 gallery:
   - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/1-dash.png
   - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/2-dash.png
