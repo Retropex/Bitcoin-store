@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-deepsea
 category: mining
 name: DeepSea Dashboard
-version: "0.8.1"
+version: "0.9.2"
 tagline: Retro style Ocean dashboard
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/dash.png
 description: >-
@@ -21,6 +21,6 @@ gallery:
   - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/4-dash.png
 path: ""
 releaseNotes: >-
-  Initial release!
+  Update to v0.9.2
 submitter: Léo Haf
 submission: https://github.com/Retropex/Bitcoin-store/pull/9
