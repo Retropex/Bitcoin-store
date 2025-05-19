@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-knots
 category: Bitcoin
 name: Bitcoin Knots arm64
-version: "28.1"
+version: "28.1-3"
 tagline: Run your personal node powered by Bitcoin Knots
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/master/bitcoin-knots/icon.svg
 description: >-
@@ -23,8 +23,8 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  This release updates Bitcoin Knots to version v28.1.knots20250305
+  - New Welcome page at the first start of Knots.
 
-  Full release notes can be found at https://github.com/bitcoinknots/bitcoin/releases/tag/v28.1.knots20250305
+  - Add -softwareexpiry option.
 submitter: Léo Haf
 submission: https://github.com/getumbrel/umbrel-apps/pull/953
