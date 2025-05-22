@@ -29,7 +29,7 @@ website: https://github.com/Retropex/bitcoin
 dependencies: []
 repo: https://github.com/Retropex/bitcoin
 support: https://github.com/Retropex/bitcoin/issues
-port: 2105
+port: 2106
 gallery:
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/bitcoin-knots/1.jpg
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/bitcoin-knots/2.jpg
