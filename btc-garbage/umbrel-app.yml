@@ -21,7 +21,7 @@ description: >-
   Here's a guide on how to move the blockchain from bitcoin core to knots: https://docs.mempool.guide/page/migrationumbrel.html
 
 
-  To forward incoming peer traffic to your device, set up the following configuration: (router) 8333 -> (device) 9333
+  To forward incoming peer traffic to your device, set up the following configuration: (router) 8333 -> (device) 7333
 
 
 developer: Léo Haf
