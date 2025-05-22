@@ -7,6 +7,7 @@ category: bitcoin
 name: Garbageman
 version: "28.1-3"
 tagline: Run your personal node powered by Garbageman
+icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/garbage.jpg
 description: >-
   Take control of your digital sovereignty by choosing Garbageman to run your node! By using Garbageman, you’re supporting a version of Bitcoin that prioritizes efficiency, security, and flexibility. With Bitcoin Knots’ enhanced configuration options, you can fine-tune your node to help keep the network clean and resilient, actively reducing unnecessary load from spam or parasitic transactions.
 
