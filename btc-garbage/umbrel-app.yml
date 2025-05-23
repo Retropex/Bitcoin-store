@@ -3,7 +3,7 @@ id: btc-garbage
 implements:
   - bitcoin
   - bitcoin-knots
-category: bitcoin
+category: Bitcoin
 name: Garbageman
 version: "28.1-3"
 tagline: Run your personal node powered by Garbageman
