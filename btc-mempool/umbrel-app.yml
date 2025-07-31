@@ -2,7 +2,7 @@ manifestVersion: 1
 id: btc-mempool
 category: Bitcoin
 name: mempool
-version: "3.2.0"
+version: "3.3.0-dev"
 tagline: Explorer
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/mempooldotguide.png
 description: >-
