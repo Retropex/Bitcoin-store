@@ -44,7 +44,7 @@ services:
         ipv4_address: $APP_BITCOIN_KNOTS_IP
 
   bitcoind:
-    image: ghcr.io/retropex/bitcoin:garbageman@sha256:1a48ed66ff8f7cad9802be28005551e4457e2512942e81453319244077134335
+    image: ghcr.io/retropex/bitcoin:v29.1-garbageman@sha256:a03b6b17c6c4c6ceb721815250c63da531e804c527c431c1918bca8264f8741c
     user: "1000:1000"
     command: "${APP_BITCOIN_KNOTS_COMMAND}"
     restart: unless-stopped
