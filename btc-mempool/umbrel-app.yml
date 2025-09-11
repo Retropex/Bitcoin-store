@@ -2,7 +2,7 @@ manifestVersion: 1
 id: btc-mempool
 category: Bitcoin
 name: mempool
-version: "3.3.0-dev"
+version: "3.3.0-dev2"
 tagline: Explorer
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/mempooldotguide.png
 description: >-
@@ -15,6 +15,8 @@ description: >-
   - reworked health algorithm to show how much healthy transactions there is in a block.
 
   - removed shitcoin explorer features.
+  
+  - Custom OCEAN/knots stats
 releaseNotes: >-
 developer: Mempool Space K.K.
 website: https://mempool.guide
