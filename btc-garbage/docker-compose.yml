@@ -7,7 +7,7 @@ services:
       APP_PORT: 3005
   
   server:
-    image: ghcr.io/retropex/umbrel-bitcoin-knots:v0.7.1@sha256:bf938e6448f89c9ec03a0fa049442f3a191718f9baa12ecef0fce3dc41ad6698
+    image: ghcr.io/retropex/umbrel-bitcoin-knots:v0.7.2-GM@sha256:ee503dc751fec27e77ca6e1d94b3913e4987985ab0a5a633db4bc10f968b1349
     depends_on: [bitcoind]
     restart: on-failure
     volumes:

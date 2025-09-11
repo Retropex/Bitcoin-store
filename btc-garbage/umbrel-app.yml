@@ -5,7 +5,7 @@ implements:
   - bitcoin-knots
 category: Bitcoin
 name: Garbageman
-version: "29.1"
+version: "29.1-1"
 tagline: Run your personal node powered by Garbageman
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/garbage.jpg
 description: >-
