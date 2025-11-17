@@ -2,7 +2,7 @@ manifestVersion: 1
 id: btc-mempool
 category: Bitcoin
 name: mempool
-version: "3.3.0-dev2"
+version: "3.3.0-rc1"
 tagline: Explorer
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/mempooldotguide.png
 description: >-
@@ -18,6 +18,7 @@ description: >-
   
   - Custom OCEAN/knots stats
 releaseNotes: >-
+  Fix bitnodes API
 developer: Mempool Space K.K.
 website: https://mempool.guide
 dependencies:
