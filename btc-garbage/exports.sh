@@ -5,6 +5,8 @@ export APP_BITCOIN_KNOTS_I2P_DAEMON_IP="10.21.22.207"
 export APP_BITCOIN_KNOTS_DATA_DIR="${EXPORTS_APP_DIR}/data/bitcoin"
 export APP_BITCOIN_KNOTS_RPC_PORT="7332"
 export APP_BITCOIN_KNOTS_P2P_PORT="7333"
+# Additional inbound P2P listener granting whitelisted permissions (whitebind) to this port; for trusted internal apps only; do not publish externally
+export APP_BITCOIN_KNOTS_P2P_WHITEBIND_PORT="9335"
 export APP_BITCOIN_KNOTS_TOR_PORT="8334"
 export APP_BITCOIN_KNOTS_ZMQ_RAWBLOCK_PORT="58332"
 export APP_BITCOIN_KNOTS_ZMQ_RAWTX_PORT="58333"
@@ -79,6 +81,7 @@ for var in \
     DATA_DIR \
     RPC_PORT \
     P2P_PORT \
+	P2P_WHITEBIND_PORT \
     TOR_PORT \
     ZMQ_RAWBLOCK_PORT \
     ZMQ_RAWTX_PORT \
