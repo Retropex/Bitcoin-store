@@ -7,7 +7,7 @@ services:
       APP_PORT: $APP_MEMPOOL_PORT
       PROXY_AUTH_ADD: "false"
   web:
-    image: ghcr.io/retropex/mempoolfrontend:v3.3.0-dev3@sha256:6b5c6c13e1c44ddde3e135025d811fe14d63e0a0bc606558a0255fcdcca75243
+    image: ghcr.io/retropex/mempoolfrontend:v3.3.0-beta@sha256:5f515352f46b892bab7c70af76f716786946dfddb675a1cf7c60e78b0ae5b3fb
     user: "1000:1000"
     init: true
     restart: on-failure
@@ -24,7 +24,7 @@ services:
       default:
         ipv4_address: $APP_MEMPOOL_IP
   api:
-    image: ghcr.io/retropex/mempoolbackend:v3.3.0-dev3@sha256:d5e5b9a62a3e59e375e124abab3f9fd25c87b348be21367d606d4fc0210ca63f
+    image: ghcr.io/retropex/mempoolbackend:v3.3.0-beta@sha256:05240bd6dda0b66c18273d1bd2643d58d0c4296437e6b4e3fdbfa1d46f03eb08
     user: "1000:1000"
     init: true
     restart: on-failure
