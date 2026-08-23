@@ -1,0 +1,24 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: btc-datum_datum_1
+      APP_PORT: 21009
+
+  datum:
+    image: ghcr.io/retropex/datum:v1.14-blake2b@sha256:e082de9d394dfe678e74c51ef23d855b55e7fa5fcc9d5346a6cff0e9ed6bacc8
+    entrypoint: ["/app/datum_gateway"]
+    command: ["--config=/app/conf/datum_gateway_config.json"]
+    user: 1000:1000
+    restart: on-failure
+    # Match Debian's DATUM Gateway systemd service (LimitNOFILE=65535).
+    ulimits:
+      nofile:
+        soft: 65535
+        hard: 65535
+    volumes:
+      - ${APP_DATA_DIR}/data/settings/:/app/conf/
+    ports:
+      # datum gateway port
+      - 23339:23339

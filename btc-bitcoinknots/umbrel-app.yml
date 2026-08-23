@@ -1,0 +1,90 @@
+manifestVersion: 1.1
+id: btc-bitcoinknots
+category: bitcoin
+name: Bitcoin Knots (testnet)
+version: "1.2.13"
+tagline: Run your personal node powered by Bitcoin Knots
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/bitcoin-knots/icon.svg
+description: >-
+  Take control of your digital sovereignty by choosing Bitcoin Knots to run your node! By using Knots, you’re supporting a version of Bitcoin that prioritizes efficiency, security, and flexibility. With Bitcoin Knots’ enhanced configuration options, you can fine-tune your node to help keep the network clean and resilient, actively reducing unnecessary load from spam or parasitic transactions.
+
+
+  Every node strengthens the Bitcoin network, and your decision to use Bitcoin Knots contributes directly to a more decentralized and spam-resistant ecosystem. Your node not only validates and secures transactions but also sets an example for a more sustainable, user-focused Bitcoin network.
+
+
+  Welcome to the community of Bitcoin Knots users, and thank you for helping Bitcoin grow stronger!
+
+
+  Here's a guide on how to move the blockchain from bitcoin core to knots: https://docs.mempool.guide/page/migrationumbrel.html
+
+
+  To forward incoming peer traffic to your device, set up the following configuration: (router) 9333 -> (device) 9333
+
+
+  Powered by Bitcoin Knots: https://bitcoinknots.org/
+developer: Léo Haf
+website: https://bitcoinknots.org
+dependencies: []
+repo: https://github.com/bitcoinknots/bitcoin.git
+support: https://github.com/bitcoinknots/bitcoin/issues
+port: 2113
+gallery:
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/bitcoin-knots/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/bitcoin-knots/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/bitcoin-knots/3.jpg
+path: ""
+defaultPassword: ""
+releaseNotes: >-
+  Add rc2
+widgets:
+  - id: "stats"
+    type: "four-stats"
+    refresh: "5s"
+    endpoint: "app:3000/api/widget/stats"
+    link: ""
+    example:
+      type: "four-stats"
+      link: ""
+      items:
+        - title: "Connections"
+          text: "11"
+          subtext: "peers"
+        - title: "Mempool"
+          text: "257"
+          subtext: "MB"
+        - title: "Hashrate"
+          text: "590"
+          subtext: "EH/s"
+        - title: "Blockchain size"
+          text: "600"
+          subtext: "GB"
+  - id: "sync"
+    type: "text-with-progress"
+    refresh: "2s"
+    endpoint: "app:3000/api/widget/sync"
+    link: ""
+    example:
+      type: "text-with-progress"
+      link: ""
+      title: "Blockchain sync"
+      text: "83%"
+      progressLabel: "In progress"
+      progress: 0.83
+backupIgnore:
+  - data/bitcoin/blocks
+  - data/bitcoin/chainstate
+  - data/bitcoin/indexes
+  - data/bitcoin/testnet3/blocks
+  - data/bitcoin/testnet3/chainstate
+  - data/bitcoin/testnet3/indexes
+  - data/bitcoin/testnet4/blocks
+  - data/bitcoin/testnet4/chainstate
+  - data/bitcoin/testnet4/indexes
+  - data/bitcoin/signet/blocks
+  - data/bitcoin/signet/chainstate
+  - data/bitcoin/signet/indexes
+  - data/bitcoin/regtest/blocks
+  - data/bitcoin/regtest/chainstate
+  - data/bitcoin/regtest/indexes
+submitter: Léo Haf
+submission: https://github.com/getumbrel/umbrel-apps/pull/953
