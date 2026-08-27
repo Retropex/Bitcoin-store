@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-bitcoinknots
 category: bitcoin
 name: Bitcoin Knots (testnet)
-version: "1.2.13"
+version: "1.2.13.rc3"
 tagline: Run your personal node powered by Bitcoin Knots
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/bitcoin-knots/icon.svg
 description: >-
@@ -18,7 +18,7 @@ description: >-
   Here's a guide on how to move the blockchain from bitcoin core to knots: https://docs.mempool.guide/page/migrationumbrel.html
 
 
-  To forward incoming peer traffic to your device, set up the following configuration: (router) 9333 -> (device) 9333
+  To forward incoming peer traffic to your device, set up the following configuration: (router) 48333 -> (device) 48333
 
 
   Powered by Bitcoin Knots: https://bitcoinknots.org/
@@ -35,7 +35,10 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  Add rc2
+  Add rc3.
+  
+  
+  Don't forget to port forward the port 48333.
 widgets:
   - id: "stats"
     type: "four-stats"
