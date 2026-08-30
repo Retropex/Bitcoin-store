@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-datum
 category: bitcoin
 name: DATUM (blake2b)
-version: "v0.4.1-beta-hotfix.1"
+version: "v0.4.1-beta-4"
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/icon.svg
 tagline: Self-sovereign Bitcoin mining
 description: >-
@@ -58,7 +58,7 @@ description: >-
 developer: OCEAN
 website: https://ocean.xyz
 dependencies:
-  - btc-bitcoinknots
+  - bitcoin-knots
 repo: https://github.com/OCEAN-xyz/datum_gateway
 support: https://ocean.xyz
 port: 21009
@@ -70,7 +70,7 @@ path: ""
 defaultUsername: "admin"
 deterministicPassword: true
 releaseNotes: >-
-  This update improves DATUM Gateway stability for setups with many connected miners by increasing the service's open file limit to match the Debian DATUM Gateway package. No action is required after updating.
+  Add support for mainnet.
 widgets:
   - id: "stats"
     type: "three-stats"
