@@ -19,6 +19,7 @@ services:
       RPC_USER: "${APP_BITCOIN_RPC_USER}"
       RPC_PASSWORD: "${APP_BITCOIN_RPC_PASS}"
       RPC_PORT: "${APP_BITCOIN_RPC_PORT}"
+      ELECTRUM_PORT: "${APP_ELECTRSBLAKE2B_NODE_PORT}"
     networks:
       default:
         ipv4_address: $APP_ELECTRSBLAKE2B_IP
