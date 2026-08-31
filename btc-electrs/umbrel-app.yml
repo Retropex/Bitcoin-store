@@ -1,0 +1,46 @@
+manifestVersion: 1.1
+id: btc-electrs
+category: bitcoin
+name: Electrs (BLAKE2b)
+version: "0.11.1"
+tagline: A simple and efficient Electrum Server
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/electrs/icon.svg
+description: >
+  Run your personal Electrum server and connect your Electrum-compatible wallet,
+  including BitBoxApp, BlueWallet, Electrum Wallet (Android and Desktop), Nunchuk 
+  (Desktop), Phoenix, and Sparrow Wallet to it instead of using a third-party
+  Electrum server.
+
+
+  Powered by Electrs from Roman Zeyde.
+
+
+  An official app from Umbrel.
+developer: Umbrel
+website: https://umbrel.com/
+implements:
+  - electrs
+dependencies:
+  - bitcoin
+repo: https://github.com/getumbrel/umbrel-electrs
+support: https://community.getumbrel.com/c/bitcoin-and-lightning
+port: 2104
+gallery:
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/electrs/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/electrs/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/electrs/3.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/electrs/4.jpg
+path: ""
+defaultPassword: ""
+releaseNotes: >
+  This security update upgrades the bundled Tor sidecar to 0.4.9.11, restoring Tor connectivity and including the latest Tor security fixes. The primary app version is unchanged.
+
+
+  This update bumps the underlying electrs version to 0.11.1. It improves Electrum API compliance for transaction lookups, adds more flexible network magic configuration, and updates core dependencies.
+
+
+  Full electrs release notes are available at https://github.com/romanz/electrs/blob/master/RELEASE-NOTES.md#0111-feb-22-2026
+submitter: Léo Haf
+submission: https://github.com/getumbrel/umbrel/pull/242
+backupIgnore:
+  - data/electrs/db/bitcoin

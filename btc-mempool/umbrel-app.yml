@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: btc-mempool
-category: Bitcoin
+category: bitcoin
 name: mempool
 version: "3.4-beta3"
 tagline: Explorer
