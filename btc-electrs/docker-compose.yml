@@ -25,7 +25,7 @@ services:
         ipv4_address: $APP_ELECTRSBLAKE2B_IP
   
   electrs:
-    image: ghcr.io/retropex/electrs:v0.1.11@sha256:fc71d9c695b314c343a0a8709d91addc935f79b6a4848ed2bb46738e313f1840
+    image: ghcr.io/retropex/electrs:v0.10.10-blake2b.1@sha256:37671f4cb359ac61ea2cabd44465b413ec1cd815bf4c1d5e2d220db2c32e49b5
     restart: always
     environment:
       ELECTRS_LOG_FILTERS: "INFO"
