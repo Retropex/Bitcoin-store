@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-datum
 category: bitcoin
 name: DATUM (blake2b)
-version: "v0.4.1-beta-4"
+version: "v0.4.1-beta-5"
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/icon.svg
 tagline: Self-sovereign Bitcoin mining
 description: >-
@@ -70,7 +70,7 @@ path: ""
 defaultUsername: "admin"
 deterministicPassword: true
 releaseNotes: >-
-  Add support for mainnet.
+  Fix compatibility with some pools.
 widgets:
   - id: "stats"
     type: "three-stats"
