@@ -2,7 +2,7 @@ manifestVersion: 1
 id: btc-mempool
 category: bitcoin
 name: mempool
-version: "3.4-beta3"
+version: "3.4-beta3-rev2"
 tagline: Explorer
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/mempooldotguide.png
 description: >-
@@ -18,7 +18,7 @@ description: >-
   
   - Custom OCEAN/knots stats
 releaseNotes: >-
-  Support BLAKE2b headers.
+  Resize block.
 developer: Mempool Space K.K.
 website: https://mempool.guide
 dependencies:

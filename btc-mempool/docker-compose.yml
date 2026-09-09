@@ -20,6 +20,7 @@ services:
       NGINX_HOSTNAME: $APP_MEMPOOL_API_IP
       LIGHTNING_DETECTED_PORT: $APP_MEMPOOL_LIGHTNING_NODE_PORT
       AUDIT: "true"
+      BLOCK_WEIGHT_UNITS: 800000
     networks:
       default:
         ipv4_address: $APP_MEMPOOL_IP
@@ -67,6 +68,7 @@ services:
       MEMPOOL_POOLS_UPDATE_DELAY: "43200"
       MEMPOOL_POOLS_JSON_URL: "https://raw.githubusercontent.com/retropex/mining-pools/master/pools-v2.json"
       MEMPOOL_POOLS_JSON_TREE_URL: "https://api.github.com/repos/retropex/mining-pools/git/trees/master"
+      BLOCK_WEIGHT_UNITS: 800000
     networks:
        default:
          ipv4_address: $APP_MEMPOOL_API_IP
