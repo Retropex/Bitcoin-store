@@ -21,6 +21,7 @@ services:
       LIGHTNING_DETECTED_PORT: $APP_MEMPOOL_LIGHTNING_NODE_PORT
       AUDIT: "true"
       BLOCK_WEIGHT_UNITS: 800000
+      ACCELERATOR_BUTTON: "false"
     networks:
       default:
         ipv4_address: $APP_MEMPOOL_IP
