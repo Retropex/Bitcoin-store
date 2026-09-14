@@ -1,0 +1,43 @@
+manifestVersion: 1.1
+id: btc-core-lightning
+implements:
+  - core-lightning
+category: bitcoin
+name: Core Lightning (blake2b)
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/core-lightning/icon.svg
+version: "26.06.7-patch.1"
+tagline: Run your personal Core Lightning node
+description: >-
+  🚨 This version only support amd64 CPUs 🚨
+
+
+  Get started with the Lightning network today with Core Lightning - a
+  Lightning Network implementation focusing on spec compliance and performance.
+
+
+  The Lightning Network allows ultra cheap and almost instant Bitcoin transactions.
+  By running a Lightning node, you can not only self-custody your Bitcoin on
+  Lightning, but also earn sats by routing payments on the network.
+
+
+  Core Lightning and Application powered by Blockstream.
+
+developer: Core Lightning
+website: https://blockstream.com/lightning/
+dependencies:
+  - bitcoin
+repo: https://github.com/privkeyio/lightning
+support: https://community.corelightning.org/home
+port: 2103
+gallery:
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/core-lightning/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/core-lightning/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/core-lightning/3.jpg
+path: ""
+defaultPassword: ""
+submitter: Blockstream
+submission: https://github.com/getumbrel/umbrel-apps/pull/475
+releaseNotes: >-
+  Add BLAKE2b support.
+backupIgnore:
+  - data/lightningd/bitcoin/lightningd.sqlite3
