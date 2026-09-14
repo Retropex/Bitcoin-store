@@ -4,6 +4,7 @@ implements:
   - core-lightning
 category: bitcoin
 name: Core Lightning (blake2b)
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/core-lightning/icon.svg
 version: "26.06.7-patch.1"
 tagline: Run your personal Core Lightning node
 description: >-
@@ -29,9 +30,9 @@ repo: https://github.com/privkeyio/lightning
 support: https://community.corelightning.org/home
 port: 2103
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/core-lightning/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/core-lightning/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/core-lightning/3.jpg
 path: ""
 defaultPassword: ""
 submitter: Blockstream
