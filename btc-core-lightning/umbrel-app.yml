@@ -5,7 +5,7 @@ implements:
 category: bitcoin
 name: Core Lightning (blake2b)
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/core-lightning/icon.svg
-version: "26.06.7-patch.1"
+version: "v26.06.7-blake2b.4"
 tagline: Run your personal Core Lightning node
 description: >-
   🚨 This version only support amd64 CPUs 🚨
@@ -38,6 +38,6 @@ defaultPassword: ""
 submitter: Blockstream
 submission: https://github.com/getumbrel/umbrel-apps/pull/475
 releaseNotes: >-
-  Add BLAKE2b support.
+  Update to v26.06.7-blake2b.4
 backupIgnore:
   - data/lightningd/bitcoin/lightningd.sqlite3
