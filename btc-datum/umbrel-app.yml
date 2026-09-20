@@ -70,6 +70,9 @@ path: ""
 defaultUsername: "admin"
 deterministicPassword: true
 releaseNotes: >-
+  🚨 You need to select bitcoin knots node in the settings of DATUM Gateway after updating. (right click on the DATUM logo)
+
+
   Allow DATUM Gateway to connect to Bitcoin Kntos from the community app store.
 widgets:
   - id: "stats"
