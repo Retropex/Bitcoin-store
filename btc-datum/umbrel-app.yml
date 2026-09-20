@@ -46,7 +46,7 @@ description: >-
   Refer to your miner's documentation for specific setup details. Here's a general guide to connect your miner with Datum:
 
     - Stratum URL/Host/Pool: Use your umbrelOS device’s IP address (found in Settings on the umbrelOS home screen) and port 23339.
-    e.g., stratum+tcp://192.168.4.56:23339
+    e.g., stratum+tcp://192.168.4.56:23340
 
     - Username/Worker: Enter the Bitcoin address for receiving OCEAN rewards. Optionally, add a worker name after a period to identify your miner.
     e.g., bc1qabcdefghijklmnopqrstuvwxyz or bc1qabcdefghijklmnopqrstuvwxyz.bitaxe
@@ -78,7 +78,7 @@ widgets:
   - id: "stats"
     type: "three-stats"
     refresh: "30s"
-    endpoint: "datum:21009/umbrel-api"
+    endpoint: "datum:21010/umbrel-api"
     link: ""
     example:
       type: "three-stats"
