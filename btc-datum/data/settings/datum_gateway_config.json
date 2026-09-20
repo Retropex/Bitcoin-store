@@ -5,7 +5,7 @@
     "rpcurl": "auto-configure-on-install"
   },
   "api": {
-    "listen_port": 21009,
+    "listen_port": 21010,
     "modify_conf": true,
     "admin_password": "umbrel"
   },
@@ -16,7 +16,7 @@
     "pow_algorithm": "blake2b"
   },
   "stratum": {
-    "listen_port": 23339
+    "listen_port": 23340
   },
   "logger": {
     "log_level_console": 2
