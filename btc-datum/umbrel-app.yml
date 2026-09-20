@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: btc-datum
 category: bitcoin
 name: DATUM (blake2b)
-version: "v0.4.1-beta-6"
+version: "v0.4.1-beta-7"
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/icon.svg
 tagline: Self-sovereign Bitcoin mining
 description: >-
@@ -58,7 +58,7 @@ description: >-
 developer: OCEAN
 website: https://ocean.xyz
 dependencies:
-  - bitcoin-knots
+  - bitcoin
 repo: https://github.com/OCEAN-xyz/datum_gateway
 support: https://ocean.xyz
 port: 21009
@@ -70,7 +70,7 @@ path: ""
 defaultUsername: "admin"
 deterministicPassword: true
 releaseNotes: >-
-  Switch to convoy repo with PR10.
+  Allow DATUM Gateway to connect to Bitcoin Kntos from the community app store.
 widgets:
   - id: "stats"
     type: "three-stats"
