@@ -1,5 +1,5 @@
 manifestVersion: 1.1
-id: btc-datum
+id: btc-datum2
 category: bitcoin
 name: DATUM (blake2b)
 version: "v0.4.1-beta-7"
