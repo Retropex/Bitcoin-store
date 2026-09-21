@@ -61,7 +61,7 @@ dependencies:
   - bitcoin
 repo: https://github.com/OCEAN-xyz/datum_gateway
 support: https://ocean.xyz
-port: 21009
+port: 21010
 gallery:
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/1.jpg
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/datum/2.jpg
