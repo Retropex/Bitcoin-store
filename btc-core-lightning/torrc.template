@@ -1,3 +1,0 @@
-# CLNRest Hidden Service
-HiddenServiceDir /data/app-$APP_ID-rest
-HiddenServicePort $CORE_LIGHTNING_REST_PORT $APP_CORE_LIGHTNING_DAEMON_IP:$CORE_LIGHTNING_REST_PORT
