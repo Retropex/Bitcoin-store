@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: btc-datum_datum_1
+      APP_HOST: btc-datum_datum_2
       APP_PORT: 21009
 
   datum:
@@ -21,4 +21,4 @@ services:
       - ${APP_DATA_DIR}/data/settings/:/app/conf/
     ports:
       # datum gateway port
-      - 23339:23339
+      - 23340:23340
