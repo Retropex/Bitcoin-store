@@ -2,7 +2,7 @@ manifestVersion: 1
 id: btc-mempool
 category: bitcoin
 name: mempool
-version: "3.4-beta5"
+version: "3.4-beta6"
 tagline: Explorer
 icon: https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/mempooldotguide.png
 description: >-
@@ -18,7 +18,7 @@ description: >-
   
   - Custom OCEAN/knots stats
 releaseNotes: >-
-  Support new difficulty RPC call.
+  Show datum miners on the pie chart.
 developer: Mempool Space K.K.
 website: https://mempool.guide
 implements:
